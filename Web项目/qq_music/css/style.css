@@ -1,0 +1,832 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: poppin, Tahoma, Arial, 微软雅黑, sans-serif;
+
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none !important;
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+.green {
+    color: #31c27c;
+
+}
+
+input:focus {
+    border: 0px;
+}
+
+/* 导航栏 */
+.nav {
+    height: 90.8px;
+}
+
+.section_inner {
+    position: relative;
+    margin: 0 auto;
+    height: 90px;
+    width: 1200px;
+    font-size: 18px;
+    line-height: 90px;
+}
+
+/* QQlogo */
+.nav_logo{
+    position: absolute;
+    top:21px;
+}
+.logo {
+    vertical-align: top;
+}
+.section_inner > ul {
+    position: absolute;
+    left: 198px;
+    top: 0px;
+}
+
+/* 导航栏 */
+.section_inner > ul > li > .inner_left_link {
+    width: 94px;
+    color: #fff;
+    background-color: #31c27c;
+}
+
+.nav_click {
+    width: 112px;
+}
+
+.nav_center_link {
+    width: 94px;
+}
+
+.nav_mark {
+    position: absolute;
+    top: 22px;
+    left: 264px;
+    width: 37px;
+    height: 14px;
+}
+
+.nav_right_link {
+    width: 66.1px;
+}
+
+.section_inner > ul > li > a:hover {
+    color: #31c27c;
+}
+
+.section_inner > ul > li > .inner_left_link:hover {
+    color: #fff;
+}
+
+/* 搜索框 */
+.search {
+    position: absolute;
+    left: 690px;
+    top: 0px;
+    border: 1px solid #c9c9c9;
+    padding: 0 33px 0 11px;
+    line-height: 36px;
+    height: 36px;
+    margin-top: 26px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+#search_input {
+    width: 174px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.search_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0 none;
+    width: 38px;
+    height: 35px;
+    background: 0 0;
+}
+
+.seach_button_images {
+    position: absolute;
+    top: 48%;
+    right: 3px;
+    margin-top: -16px;
+    width: 29px;
+    height: 33px;
+    background-image: url(../images/search.png);
+
+}
+
+.header_right {
+    position: absolute;
+    top: -2px;
+    right: 242px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.nav_click_sign_in {
+    font-size: 16px;
+    width: 38px;
+    text-align: center;
+}
+
+.nav_click_sign_in:hover {
+    color: #31c27c;
+}
+
+/* 下拉列表 */
+.select_left {
+    position: absolute;
+    left: 970px;
+    top: 19px;
+    width: 114px;
+    height: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.nav_height {
+    height: 10px;
+    line-height: 10px;
+}
+
+.nav_bgc {
+    font-size: 14px;
+    background-color: #31c27c;
+}
+
+.nav_color {
+    color: #F3F3F3;
+}
+
+.navbar {
+    border: 0px;
+}
+
+.dropdown-menu-my {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.navbar-nav > li > a {
+    padding-left: 10px;
+}
+
+.caret {
+    background-color: #31c27c;
+}
+
+#nav_a {
+    background-color: #31c27c;
+    color: #333333;
+}
+
+#nav_a_2 {
+    background-color: #31c27c;
+    color: #F3F3F3;
+}
+
+.select_right {
+    position: absolute;
+    left: 1096px;
+    top: 19px;
+    width: 114px;
+    height: 10px;
+    color: #fff;
+}
+
+.jiantou_right {
+    position: absolute;
+    content: "";
+    right: -225px;
+    top: 43px;
+}
+
+/* 侧边栏 */
+.sidebar {
+    position: fixed;
+    top: 147px;
+    right: 9px;
+    z-index: 1001;
+    width: 180px;
+    height: 130.6px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .07);
+    background-color: #fff;
+}
+
+.sidebar_logo {
+    display: block;
+    margin: 20px auto;
+    width: 102px;
+}
+
+.sidebar_text {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 16px;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.sidebar_download {
+    display: block;
+    position: absolute;
+    top: 88px;
+    left: 30px;
+    width: 130px;
+    height: 26px;
+    border-radius: 26px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #31c27c;
+}
+
+.sidebar_download:hover {
+    color: #fff;
+    background-color: #2caf6f;
+}
+
+.sidebar_mark {
+    width: 23px;
+    height: 16px;
+    background-color: #31c27c;
+
+}
+
+/* 子导航栏 */
+.subnav {
+    margin: 0 auto;
+    width: 1250px;
+    height: 51.8px;
+    border-top: 1px solid #f2f2f2;
+}
+
+.subnav > ul {
+    height: 51px;
+    line-height: 51px;
+    border-top: 1px solid #f2f2f2;
+    padding-left: 230px;
+    margin-right: -50px;
+}
+
+#subnav_link {
+    color: #31c27c;
+
+}
+
+.subnav > ul > li > a {
+    float: left;
+    font-size: 15px;
+    margin-left: 29px;
+}
+
+.subnav_link {
+    width: 60px;
+    height: 51px;
+}
+
+.subnav_link:hover {
+    color: #31c27c;
+}
+
+
+/* 歌单推荐 */
+.slide_action {
+    width: 144%;
+    height: 340px;
+    background-color: #F3F3F3;
+    padding-top: 4.16667%;
+    padding-bottom: 2%;
+}
+
+
+.slide_cation_title {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 196px;
+    height: 40px;
+    background-image: url(https://y.gtimg.cn/mediastyle/yqq/img/index_tit.png?max_age=2592000&v=c7310a1eb12fc9fce032314be79ad579);
+    background-color: #F3F3F3;
+}
+
+.slide_action_nav {
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+.slide_action_nav > a {
+    font-size: 15px;
+    background-color: #F3F3F3;
+}
+
+.action_nav {
+    margin: 0 24px;
+}
+
+#action_nav {
+    color: #31c27c;
+}
+
+.slide_action > .slide_action_nav > a:hover {
+    color: #31c27c;
+}
+
+/* 歌单 */
+
+.slide_action > .main {
+    position: relative;
+    height: 370px;
+
+}
+
+.slide_action > .main > .main_content {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+
+
+}
+
+.main > .main_content > a img {
+    margin-left: 65px;;
+    width: 224px;
+    height: 224px;
+
+}
+
+.list_name > div a {
+    display: inline;
+    font-size: 14px;
+}
+
+.list_name > div a:hover {
+    color: #31c27c;
+}
+
+.playlist {
+    color: #999;
+    height: 22px;
+}
+
+.list_name_first {
+    position: absolute;
+    top: 258px;
+    left: 197px;
+}
+
+.list_name_second {
+    position: absolute;
+    top: 256px;
+    left: 485px;
+}
+
+.list_name_third {
+    position: absolute;
+    top: 256px;
+    left: 783px;
+}
+
+.list_name_fourth {
+    position: absolute;
+    top: 259px;
+    left: 1083px;
+}
+
+.list_name_fifth {
+    position: absolute;
+    top: 258px;
+    left: 1095px;
+}
+
+/* 新歌首发 */
+.newsong {
+    position: relative;
+    margin: 0 auto;
+    width: 148%;
+    height: 491px;
+    background-color: #f3f3f3;
+}
+
+.newsong_title {
+    position: absolute;
+    top: 40px;
+    left: 662px;
+    width: 196px;
+    height: 52px;
+    background-image: url(../images/新歌首发.png);
+    background-repeat: no-repeat;
+    background-color: #F3F3F3;
+}
+
+.newsong_start {
+    position: absolute;
+    top: 98px;
+    left: 149px;
+    width: 123px;
+    height: 38px;
+    line-height: 17px;
+    border: 1px solid #c9c9c9;
+    background-color: #F3F3F3;
+}
+
+.newsong_start:hover {
+    background-color: #EDEDED;
+}
+
+#start_button {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+
+.newsong_start_a {
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    font-size: 14px;
+    background-color: #F3F3F3;
+}
+
+.newsong_nav {
+    position: absolute;
+    left: 477px;
+    top: 95px;
+    background-color: #F3F3F3;
+}
+
+.newsong_nav > a {
+    margin-right: 63px;
+    font-size: 15px;
+    background-color: #F3F3F3;
+}
+
+.newsong_nav > a:hover {
+    color: #31c27c;
+}
+
+.newsong_list {
+    margin-top: 137px;
+}
+
+.newsong_singername > div a {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername > div a:hover {
+    color: #31c27c;
+}
+
+.newsong_singername_1 {
+    position: absolute;
+    top: 215px;
+    left: 231px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_2 {
+    position: absolute;
+    top: 327px;
+    left: 231px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_3 {
+    position: absolute;
+    top: 438px;
+    left: 231px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_4 {
+    position: absolute;
+    top: 214px;
+    left: 662px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_5 {
+    position: absolute;
+    top: 330px;
+    left: 657px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_6 {
+    position: absolute;
+    top: 439px;
+    left: 663px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_7 {
+    position: absolute;
+    top: 217px;
+    right: 323px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_8 {
+    position: absolute;
+    top: 328px;
+    right: 330px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_singername_9 {
+    position: absolute;
+    top: 438px;
+    right: 334px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name > div a {
+    display: block;
+    font-size: 14px;
+    background-color: #f3f3f3;
+}
+
+.newsong_name > div a:hover {
+    color: #31c27c;
+}
+
+.newsong_name_1 {
+    position: absolute;
+    top: 197px;
+    left: 230px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_2 {
+    position: absolute;
+    top: 307px;
+    left: 230px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_3 {
+    position: absolute;
+    top: 419px;
+    left: 230px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_4 {
+    position: absolute;
+    top: 198px;
+    left: 660px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_5 {
+    position: absolute;
+    top: 307px;
+    left: 658px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_6 {
+    position: absolute;
+    top: 419px;
+    left: 661px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_7 {
+    position: absolute;
+    top: 202px;
+    right: 341px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_8 {
+    position: absolute;
+    top: 307px;
+    right: 289px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.newsong_name_9 {
+    position: absolute;
+    top: 419px;
+    right: 180px;
+    z-index: 100;
+    background-color: #f3f3f3;
+}
+
+.songlist_list {
+    position: absolute;
+    top: 140px;
+    left: 130px;
+
+}
+
+.songlist_item {
+    display: inline-block;
+    width: 33.333%;
+    background-color: #f3f3f3;
+}
+
+.songlis_item_box {
+    position: relative;
+    top: 10px;
+    padding-top: 21px;
+    padding-right: 56px;
+    background-color: #f3f3f3f3;
+}
+
+.songlist_item_a {
+    font-size: 0px;
+}
+
+.songlis_item_box > a > img {
+    width: 86px;
+    height: 86px;
+}
+
+/* 精彩推荐 */
+.carousel-inner{
+    width: 116%;
+}
+.item_width {
+    width: 100%;
+}
+
+.img_size_left {
+    float: left;
+    margin-left: 109px;
+    width: 500px;
+
+
+}
+
+.img_size_right {
+    float: left;
+    margin-left: 22px;
+    width: 500px;
+
+
+}
+
+.glyphicon {
+    position: relative;
+    top: -101px;
+    left: 6px;
+}
+
+.glyphicon_right {
+    position: relative;
+    left: 1375px;
+}
+
+.glyphicon:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/* 底部声明 */
+.footer {
+    position: relative;
+}
+
+.guanyu {
+    position: absolute;
+    top: 362px;
+    left: 374px;
+    background-color: #333;
+}
+
+.final {
+    width: 148%;
+    height: 429px;
+    background-color: #333;
+}
+
+.line {
+    display: inline;
+    color: #999;
+    background-color: #333;
+}
+
+.final > .guanyu > a {
+    font-size: 12px;
+    color: #999;
+    background-color: #333;
+}
+
+.final > .guanyu > a:hover {
+    color: #31c27c;
+}
+
+.from > .copy {
+    position: absolute;
+    left: 551px;
+    top: 385px;
+    color: #999;
+    background-color: #333;
+}
+
+.from > .copy a {
+    color: #999;
+    font-size: 14px;
+    background-color: #333;
+}
+
+.from > .copy a:hover {
+    color: #31c27c;
+}
+
+.from > .tencent {
+    position: absolute;
+    left: 512px;
+    top: 404px;
+    color: #999;
+    background-color: #333;
+}
+
+.from > .tencent a {
+    color: #999;
+    font-size: 14px;
+    background-color: #333;
+}
+
+.from > .tencent a:hover {
+    color: #31c27c;
+}
+
+
+
+
+
+
+
+

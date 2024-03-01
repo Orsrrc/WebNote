@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta name="keywords" content="音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库">
+    <meta name="description"
+          content="QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。">
+    <meta name="applicable-device" content="pc">
+    <meta name="baidu-site-verification" content="4wUHM6SoM3">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <title>QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="row">
+    <div class="nav">
+        <div class="section_inner">
+            <!-- QQ音乐logo -->
+            <div class="nav_logo col-xs-12"><img class="logo"
+                                                 src="https://y.gtimg.cn/mediastyle/yqq/img/logo.png?nowebp=1">
+            </div>
+            <!-- 导航栏 -->
+            <ul>
+                <li><a href="#" class="inner_left_link">音乐馆</a></li>
+                <li><a href="#" class="nav_click">我的音乐</a></li>
+                <li><a href="#" class="nav_center_link">客户端</a>
+                    <img class="nav_mark " src="images/mark_1.png">
+                </li>
+                <li><a href="#" class="nav_click">开放平台</a></li>
+                <li><a href="#" class="nav_right_link">VIP</a></li>
+            </ul>
+            <!-- 搜索栏 -->
+            <form action="#">
+                <div class="search">
+                    <input type="text" id="search_input" aria-label="请输入搜索内容" placeholder="搜索音乐、MV、歌单、用户"
+                           accesskey="s">
+                    <button class="search_button">
+                        <div class="seach_button_images"></div>
+                    </button>
+                </div>
+            </form>
+
+            <div class="header_right">
+                <a href="#" class="nav_click_sign_in">登录</a>
+            </div>
+            <!--开通VIP-->
+            <div class="select_left ">
+                <nav class="navbar nav_bgc" role="navigation">
+                    <div class="container-fluid nav_bgc">
+                        <div>
+                            <ul class="nav_height navbar-nav">
+
+                                <li class="dropdown nav_bgc">
+                                    <a href="#" class="  nav_bgc" id="nav_a" data-toggle="dropdown">
+                                        开通VIP
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">开通绿钻豪华版</a></li>
+                                        <li><a href="#">开通付费包</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- 充值栏 -->
+            <div class="select_right">
+                <nav class="navbar nav_bgc" role="navigation">
+                    <div class="container-fluid nav_bgc">
+                        <div>
+                            <ul class="nav_height navbar-nav">
+
+                                <li class="dropdown nav_bgc">
+                                    <a href="#" class=" nav_bgc " id="nav_a_2" data-toggle="dropdown">
+                                        充值
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">购买乐币</a></li>
+                                        <li><a href="#">购买饭票</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+<!-- 子导航栏-->
+    <div class="subnav">
+        <ul>
+            <li><a href="#" class="subnav_link" id="subnav_link">首页</a></li>
+            <li><a href="#" class="subnav_link">歌手</a></li>
+            <li><a href="#" class="subnav_link">歌手</a></li>
+            <li><a href="#" class="subnav_link">排行榜</a></li>
+            <li><a href="#" class="subnav_link">分类歌单</a></li>
+            <li><a href="#" class="subnav_link">电台</a></li>
+            <li><a href="#" class="subnav_link">MV</a></li>
+            <li><a href="#" class="subnav_link">数字专辑</a></li>
+        </ul>
+    </div>
+
+    <!-- 侧边栏 -->
+    <div class="sidebar"><img src="http://imgcache.gtimg.cn/mediastyle/yqq/img/logo.png" class="sidebar_logo">
+        <div class="sidebar_text">千万高品质曲库尽享</div>
+        <a href="#" class="sidebar_download">
+            <img class=" sidebar_mark" src="images/windows.png" alt="">
+            客户端下载
+        </a>
+    </div>
+
+    <!-- 歌单推荐 -->
+
+    <div class="slide_action ">
+        <div class="slide_cation_title">
+        </div>
+        <div class="slide_action_nav">
+            <a href="#" class="action_nav" id="action_nav">为你推荐</a>
+            <a href="#" class="action_nav">夜店</a>
+            <a href="#" class="action_nav">经典</a>
+            <a href="#" class="action_nav">短视频热歌</a>
+            <a href="#" class="action_nav">官方歌单</a>
+            <a href="#" class="action_nav">情歌</a>
+        </div>
+        <!-- 歌单图片 -->
+        <div class="main">
+            <div class="main_content">
+                <a href="#">
+                    <img src="https://qpic.y.qq.com/music_cover/ZbyVIIBmiaen9N02QicpE0Oyf1aZb9bskHHjlYJORRcGLROMwsvwhxViazCUOtRaCmz/300?n=1">
+                </a>
+
+                <a href="#"><img
+                        src="https://qpic.y.qq.com/music_cover/7OvyVEUhXlyQibJIaz19cNQA2o3b2zl9ohVouZxibTe2MHkY9rb0JG2w/300?n=1">
+                </a>
+
+
+                <a href="#"><img
+                        src="https://qpic.y.qq.com/music_cover/IsibtXpC8ibxtEohNpGnKicTS85ZulySOUAVkVEgVgAkUFnUSQU85nGpA/300?n=1"></a>
+
+                <a href="#"><img
+                        src="https://qpic.y.qq.com/music_cover/zgIic6Lia41Zj96zvQfFYFYdKibUvk8CMmMt1PIgbtXsXSnWON8x6xyTA/300?n=1"></a>
+            </div>
+            <!-- 歌单名称 -->
+            <div class="list_name">
+                <div class="list_name_first">
+                    <div><a href="#">宝藏歌曲 | 星辰闪烁 云朵温柔</a></div>
+                    <div class="playlist">播放量：1228.0万</div>
+                </div>
+                <div class="list_name_second">
+                    <div><a href="#">帅硕晗：极富感染力的温柔女声</a></div>
+                    <div class="playlist">播放量：48.7万</div>
+                </div>
+                <div class="list_name_third">
+                    <div><a href="#">强强联手！欧美大牌间的绝配组合</a></div>
+                    <div class="playlist">播放量：595.6万</div>
+                </div>
+                <div class="list_name_fourth">
+                    <div><a href="#">祝你生日快乐！</a></div>
+                    <div class="playlist">播放量：132.3万</div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    <!--新歌首发 -->
+    <div class="newsong">
+        <div class="newsong_title"></div>
+        <div class="newsong_start">
+            <a href="#">
+                <span class="glyphicon-play glyphicon" id="start_button"></span>
+                <a href="#" class=" newsong_start_a">播放全部</a>
+            </a>
+            <div class="play_buttom"></div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="newsong_nav">
+            <a href="#" class="green">最新</a>
+            <a href="#">内地</a>
+            <a href="#">港台</a>
+            <a href="#">欧美</a>
+            <a href="#">韩国</a>
+            <a href="#">日本</a>
+        </div>
+        <!-- 歌手名称 -->
+        <div class="newsong_list">
+            <div class="newsong_singername">
+                <div class="newsong_singername_1"><a href="#">PANTHEPACK</a></div>
+                <div class="newsong_singername_2"><a href="#">单依纯</a></div>
+                <div class="newsong_singername_3"><a href="#">洪嘉豪</a></div>
+                <div class="newsong_singername_4"><a href="#">Day6 (데이식스)</a></div>
+                <div class="newsong_singername_5"><a href="#">王晰</a></div>
+                <div class="newsong_singername_6"><a href="#">张碧晨</a></div>
+                <div class="newsong_singername_7"><a href="#">李天泽</a></div>
+                <div class="newsong_singername_8"><a href="#">郭沁</a></div>
+                <div class="newsong_singername_9"><a href="#">陆虎</a></div>
+            </div>
+            <!-- 新歌名称 -->
+            <div class="newsong_name">
+                <div class="newsong_name_1"><a href="#"> DNA</a></div>
+                <div class="newsong_name_2"><a href="#">分身</a></div>
+                <div class="newsong_name_3"><a href="#"> 迷之微笑</a></div>
+                <div class="newsong_name_4"><a href="#">You Make Me</a></div>
+                <div class="newsong_name_5"><a href="#">一爱如故《长歌行》电视剧插曲</a></div>
+                <div class="newsong_name_6"><a href="#">在梦，在醒</a></div>
+                <div class="newsong_name_7"><a href="#">Trip</a></div>
+                <div class="newsong_name_8"><a href="#">知道不知道</a></div>
+                <div class="newsong_name_9"><a href="#">万里《骊歌行》影视剧片尾曲</a></div>
+            </div>
+            <!-- 表单图片 -->
+            <ul class="songlist_list">
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a">
+                            <img
+                                    src="https://y.gtimg.cn/music/photo_new/T002R90x90M000002RV2gZ1rZvEk_3.jpg?max_age=2592000">
+                        </a>
+
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a">
+                            <img
+                                    src="https://y.gtimg.cn/music/photo_new/T002R90x90M000000VY54T0igC74_1.jpg?max_age=2592000">
+                        </a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R90x90M000004UC4dF29Ikba_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R150x150M000003HWv5O1F23zm_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R90x90M000003vGVIq243Mzm_2.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R90x90M0000022VUJl0V8UVp_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R90x90M000000qMPop2HbBeo_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R150x150M000003rOIzY282LYu_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+                <li class="songlist_item">
+                    <div class="songlis_item_box">
+                        <a href="#" class="songlist_item_a"> <img
+                                src="https://y.gtimg.cn/music/photo_new/T002R90x90M000002jT0Uw3Fw4CH_1.jpg?max_age=2592000"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 精彩推荐 -->
+    <div id="myCarousel" class="carousel slide item_width">
+
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="img_size_left"
+                     src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/3884268.gif?max_age=2592000"
+                     alt="First slide">
+                <img class="img_size_right" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4014857.gif"
+                     alt="Third slide">
+            </div>
+            <div class="item">
+                <img class="img_size_left"
+                     src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/3867169.gif?max_age=2592000"
+                     alt="Second slide">
+                <img class="img_size_right" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4016413.gif"
+                     alt="Third slide">
+            </div>
+            <div class="item">
+                <img class="img_size_left" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4019776.jpg"
+                     alt="Third slide">
+                <img class="img_size_right" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4019631.jpg"
+                     alt="Third slide">
+
+            </div>
+            <div class="item">
+                <img class="img_size_left" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4023119.jpg"
+                     alt="Third slide">
+                <img class="img_size_right" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4022819.jpg"
+                     alt="Third slide">
+
+            </div>
+            <div class="item">
+                <img class="img_size_left" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4020167.jpg"
+                     alt="Third slide">
+                <img class="img_size_right" src="https://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/4022793.jpg"
+                     alt="Third slide">
+
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left " href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+        </a>
+        <a class="right" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon_right glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+
+    <div class="footer">
+        <!-- 底部声明 -->
+        <div class="final">
+            <div class="guanyu">
+                <a href="#"> 关于腾讯</a>
+                <div class="line">|</div>
+                <a href="#">About Tencent</a>
+                <div class="line">|</div>
+                <a href="#">服务条款</a>
+                <div class="line">|</div>
+                <a href="#">用户服务协议</a>
+                <div class="line">|</div>
+                <a href="#">隐私政策</a>
+                <div class="line">|</div>
+                <a href="#">权利声明</a>
+                <div class="line">|</div>
+                <a href="#">广告服务</a>
+                <div class="line">|</div>
+                <a href="#">腾讯招聘</a>
+                <div class="line">|</div>
+                <a href="#">客服中心</a>
+                <div class="line">|</div>
+                <a href="#">网站导航</a>
+            </div>
+        </div>
+        <div class="from">
+            <div class="copy">Copyright © 1998 - 2021 Tencent. <a href="#">All Rights Reserved.</a></div>
+            <div class="tencent">腾讯公司 版权所有 网络文化经营许可证 : <a href="#">粤网文[2018]6725-2386号</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

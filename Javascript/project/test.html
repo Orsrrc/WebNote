@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+          integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!--    &lt;!&ndash; 最新的 Bootstrap 核心 JavaScript 文件 &ndash;&gt;-->
+    <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"-->
+    <!--        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"-->
+    <!--        crossorigin="anonymous"></script>-->
+    <style>
+        .box1 {
+            background-color: red;
+            height: 100px;
+        }
+
+        .box2 {
+            background-color: green;
+            height: 100px;
+        }
+
+        .box3 {
+            background-color: blue;
+            height: 100px;
+        }
+    </style>
+
+
+    <script>
+
+        // 显示日期
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+
+
+        // 直接写入HTML中
+        // write是个函数？
+        document.write("<h1>这是一个标题</h1>");
+        document.write("<p>这是一个段落</p>");
+
+        //打开网页显示窗口
+        window.onload = function () {
+            alert("欢迎光临！！！！");
+        };
+        window.onbeforeunload = function (event) {
+            var e = event || window.event;
+            e.retunValue = "欢迎下次光临";
+        };
+
+
+    </script>
+    <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+<h1>bootstrap入门</h1>
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+
+<h1>我的第一个 JavaScript 程序</h1>
+<p id="demo">这是一个段落</p>
+<button type="button" onclick="displayDate()">显示日期</button>
+
+
+<p>您只能在HTML输出流中使用<strong>document.write</strong>
+    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档
+</p>
+
+
+<h1>我的第一个JavaScript</h1>
+<p>JavaScript 能够对事件做出反应。比如对按钮的点击：</p>
+<button type="button" onclick="alert('sb!')">点我！</button>
+
+<!--    You can use the mark tag to <mark>highlight</mark> text.-->
+
+<!--    bootstrap标签-->
+<!--    我们原来想写居中很麻烦，但可以通过bootstrap来实现-->
+<h1 style="text-decoration:line-through;text-align: center">999</h1>
+<code><p>1000</p></code>
+
+
+<p class="text-left">Left aligned text.</p>
+<p class="text-center">Center aligned text.</p>
+<p class="text-right">Right aligned text.</p>
+<p class="text-justify">Justified text.</p>
+<p class="text-nowrap">No wrap text.</p>
+
+<div class="container">9999</div>
+<table class="table table-striped table-bordered table-hover">
+    <tr class="warning">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr class="danger">
+        <td class="text-success">6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>0</td>
+    </tr>
+    <tr class="info">
+        <td>11</td>
+        <td>12</td>
+        <td>12</td>
+        <td>33</td>
+        <td>333</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>22</td>
+        <td>333</td>
+        <td>44</td>
+        <td>555</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>22</td>
+        <td>333</td>
+        <td>44</td>
+        <td>555</td>
+    </tr>
+</table>
+
+
+<!--表单-->
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> Check me out
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+<p>
+    <button type="button" class="btn btn-success btn-lg">（大按钮）Large button</button>
+    <button type="button" class="btn btn-default btn-lg">（大按钮）Large button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary">（默认尺寸）Default button</button>
+    <button type="button" class="btn btn-default">（默认尺寸）Default button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary btn-sm">（小按钮）Small button</button>
+    <button type="button" class="btn btn-default btn-sm">（小按钮）Small button</button>
+</p>
+<p>
+    <button type="button" class="btn btn-primary btn-xs">（超小尺寸）Extra small button</button>
+    <button type="button" class="btn btn-default btn-xs">（超小尺寸）Extra small button</button>
+</p>
+
+
+<div class="row">
+    <!-- col-lg-1代表在最大的宽度下显示12分子1-->
+    <div class="box1 col-lg-4 col-md-6 col-sm-4"></div>
+    <div class="box2 col-lg-4 col-md-6 col-sm-4"></div>
+    <div class="box3 col-lg-4 col-md-6 col-sm-4"></div>
+</div>
+
+<button class="btn btn-danger glyphicon glyphicon-volume-off">
+    提交
+</button>
+
+<div class="panner-default">
+    <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div>
+
+
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal">Large modal
+</button>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content">
+          <h1>123</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="">Small modal
+</button>
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
